@@ -1,4 +1,4 @@
-# Run an eve agent with Ollama on this computer
+# Run a local eve agent with Ollama
 
 This project is an [eve](https://eve.dev) agent that chats with a model running in [Ollama](https://ollama.com) on the same machine. eve compiles the files in `agent/` and runs the agent. You talk to it in the eve terminal UI, a chat in your terminal. The agent runs shell commands and file tools in a sandbox at `/workspace`, not in your home directory.
 
